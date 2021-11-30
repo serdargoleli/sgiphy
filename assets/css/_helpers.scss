@@ -1,0 +1,30 @@
+/* COLOR */
+$yellow-color: #ffc107;
+$orange-color: #ff5722;
+$gray-color: #9e9e9e;
+$dark-color: #121315;
+$main-dark-color: #1e2023;
+$white-color: #fefefe;
+/* GENERAL */
+$radius: 7px;
+$transition: all 0.3s;
+
+/* RESPONSE */
+@mixin mq($width: 'tablet') {
+  @if ($width == 'tablet') {
+    @media (min-width: 768px) {
+      @content;
+    }
+  } @else if ($width == 'tablet') {
+    @media (min-width: 992px) {
+      @content;
+    }
+  }
+}
+
+/* FONT  */
+@font-face {
+  font-family: 'poppins', sans-serif;
+  src: url('../font/Poppins-Regular.ttf');
+}
+ 
