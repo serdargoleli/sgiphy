@@ -83,7 +83,6 @@ export default {
     ZoomIcon,
   },
   async created() {
-    console.log("auto deploy test 1")
     // sayfa yenilendiğinde veya yeniden oluşturulduğunda ofseti sıfırladık
     // önce trend verileri çekip daha sonra arama yaptıımızda offset değerinin sıfırlanmasını istedik
     // Sayfa ilk yüklendiği anda
